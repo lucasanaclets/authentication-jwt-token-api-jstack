@@ -9,12 +9,14 @@
     "@types/node": "^24.5.2",
     "prisma": "^6.16.2",
     "tsx": "^4.20.5",
-    "typescript": "^5.9.2"
+    "typescript": "^5.9.2",
+    "@types/bcryptjs": "^3.0.0"
   },
   "scripts": {
     "dev": "tsx watch src/index.ts"
   },
   "dependencies": {
-    "@prisma/client": "^6.16.2"
+    "@prisma/client": "^6.16.2",
+    "bcryptjs": "^3.0.2"
   }
 }
