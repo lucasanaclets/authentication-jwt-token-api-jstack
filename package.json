@@ -15,6 +15,6 @@
     "dev": "tsx watch src/index.ts"
   },
   "dependencies": {
-    "@prisma/client": "6.16.2"
+    "@prisma/client": "^6.16.2"
   }
 }
