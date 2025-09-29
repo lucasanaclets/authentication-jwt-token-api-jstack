@@ -1,9 +1,5 @@
 import express from "express";
-import { SignUpController } from "../application/controllers/SignUpController";
-import { SignUpUseCase } from "../application/useCases/SignUpUseCase";
-import { SignInUseCase } from "../application/useCases/SignInUseCase";
-import { SignInController } from "../application/controllers/SignInController";
-import { makeSignUpUseCase } from "../factories/makeSignUpUseCase";
+
 import { makeSignUpController } from "../factories/makeSignUpController";
 import { makeSignInController } from "../factories/makeSignInController";
 
