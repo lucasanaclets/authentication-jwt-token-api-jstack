@@ -27,7 +27,7 @@ export class AuthenticationMiddleware implements IMiddleware {
         throw new Error();
       }
 
-      const payload = verify(token, env.jwtSecret);
+      const payload = verify(token!, env.jwtSecret);
 
       return {
         data: {
